@@ -1,0 +1,13 @@
+@use './styles/themes/defaultTheme' as *;
+@use './styles/util' as *;
+@use './styles/base' as *;
+@use './styles/layout/app' as *;
+
+*,
+::after,
+::before{
+    
+}
+body{
+    background-color: rgb(150, 20, 20);;
+}

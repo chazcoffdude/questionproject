@@ -1,0 +1,36 @@
+menu.li {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  width: 0;
+  height: 0;
+  border-left: 12px solid transparent;
+  border-right: 12px solid transparent;
+  border-bottom: 12px solid red;
+  margin-bottom: -5px;
+}
+
+.list {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  -moz-column-gap: 0.75rem;
+       column-gap: 0.75rem;
+  margin-bottom: 1.5rem;
+  border-radius: 3rem;
+}
+.list img {
+  width: 75px;
+  height: 75px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 50%;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+.list h4 {
+  margin-bottom: 0.35rem;
+}
+.list p {
+  margin-bottom: 0;
+}/*# sourceMappingURL=list.css.map */
